@@ -1,0 +1,14 @@
+
+url = https://gisellezeno.com/tutorials/sphinx-for-python-documentation.html
+url2 = http://www.sphinx-doc.org/en/stable/tutorial.html#setting-up-the-documentation-sources
+utl3 = https://www.jetbrains.com/help/pycharm/generating-reference-documentation.html
+
+
+1) run Tools/Sphinix quickstart
+2) configure the run script parameters ( set the right paths) 
+3) update conf.py with : sys.path.insert(0, os.path.abspath('../package path.'))
+4) run the script
+5) run sphinx-apidoc -f -o source/ ../mypackage/ so as to genetate the .rst files
+6) run 'make html'
+
+easyer way : http://epydoc.sourceforge.net/
